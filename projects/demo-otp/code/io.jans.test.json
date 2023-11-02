@@ -63,13 +63,14 @@
 					"timeout": "100",
 					"inputs": "credentialMap otpPassed userExists otpResult",
 					"configs": "config"
-				}
+				},
+				"skake": false
 			},
 			"position": {
 				"x": 30,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -79,8 +80,8 @@
 	],
 	"edges": [],
 	"viewport": {
-		"x": 184.86793759731188,
-		"y": 93.45391622531554,
-		"zoom": 0.757858283255199
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
