@@ -70,7 +70,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 2730,
 				"y": 28.68049208922713
@@ -157,7 +157,7 @@
 			"height": 122,
 			"id": "finish-6489e07a-0faa-4c48-af30-547c409f2d59",
 			"position": {
-				"x": 2593,
+				"x": 2594,
 				"y": 314
 			},
 			"type": "finish",
@@ -169,7 +169,7 @@
 				"inRepeatBlock": false,
 				"handles": [],
 				"position": {
-					"x": 2593,
+					"x": 2594,
 					"y": 314
 				},
 				"agamaData": {
@@ -224,7 +224,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 2593,
+				"x": 2594,
 				"y": 314
 			}
 		},
@@ -961,7 +961,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 630,
@@ -1550,8 +1550,8 @@
 		}
 	],
 	"viewport": {
-		"x": -297,
-		"y": 36,
-		"zoom": 1
+		"x": -1173.1173982467217,
+		"y": 140.587265734042,
+		"zoom": 0.7071067811865477
 	}
 }
