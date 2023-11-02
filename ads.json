@@ -15,7 +15,8 @@
         "noDirectLaunch": [],
         "configs": {
             "": {},
-            "maduvena.resilient.io.jans.test": {}
+            "maduvena.resilient.io.jans.test": {},
+            "io.jans.test": {}
         },
         "name": "demo-otp"
     },
