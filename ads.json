@@ -13,6 +13,7 @@
             "openid-connect"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {},
+        "name": "demo-otp"
     }
 }
