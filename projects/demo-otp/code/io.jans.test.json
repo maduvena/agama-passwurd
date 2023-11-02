@@ -64,13 +64,13 @@
 					"inputs": "credentialMap otpPassed userExists otpResult",
 					"configs": "config"
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
