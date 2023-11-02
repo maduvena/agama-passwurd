@@ -17,8 +17,8 @@ Log "@info userExists : " resultUserExists
 // User does not exist
 When resultUserExists is false
      // User not enrolled
-     it_dzkrc = { success: false, error: "User not enrolled" }
-     Finish it_dzkrc
+     it_nsyri = { success: false, error: "User not enrolled" }
+     Finish it_nsyri
 // Prompt for OTP
 Log "@info Assume user recieves an OTP"
 // OTP form
@@ -32,10 +32,10 @@ When otpResult is true
      // Successful flow
      Log "@info Success"
      // Flow complete
-     it_ibail = { success: true, data: { userId: username } }
-     Finish it_ibail
+     it_rqfsc = { success: true, data: { userId: username } }
+     Finish it_rqfsc
 // OTP validation failed
 Log "@error OTP validation failed"
 // Incorrect OTP
-it_udqfy = { success: false, error: "OTP wrong" }
-Finish it_udqfy
+it_rklnr = { success: false, error: "OTP wrong" }
+Finish it_rklnr
