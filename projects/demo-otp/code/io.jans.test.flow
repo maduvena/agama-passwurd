@@ -1,38 +1,6 @@
-Flow maduvena.passwurd
+// OTP authentication
+Flow io.jans.test
      Basepath ""
-     Timeout 1000 seconds
+     Timeout 100 seconds
      Configs config
-     Inputs credentialMap otpPassed userExists validateKeystrokesResult 
-initializeCredentialMap | exception = Call io.jans.passwurd.UserCheck#initCredentialMap credentialMap
-result | exception = Call io.jans.passwurd.UserCheck#initializeFlow config
-credentialU = RRF "username.ftlh" 
-resultUserExists | exceptionResultUserExists = Call io.jans.passwurd.UserCheck#userExists credentialU.username
-Log "@error exceptionResultUserExists : " exceptionResultUserExists
-Log "@info userExists : " resultUserExists
-When exceptionResultUserExists is not null
-     Log "@info Ending the flow because of exceptions"
-     // Exceptions end of flow
-     it_bzkwx = { success: false, error: "Aborted because of Exception" }
-     Finish it_bzkwx
-When resultUserExists is false
-     // User does not exist
-     it_gkjej = { success: false, error: "User does not exist" }
-     Finish it_gkjej
-credentialP = RRF "UsernamePasswurd.ftlh" 
-resultValidation | exception = Call io.jans.passwurd.UserCheck#validateKeystrokes credentialU.username credentialP
-Log "@info resultValidation ----- " resultValidation
-When resultValidation is not -2
-     Log "@info Proceed, not incorrect password"
-     When resultValidation is not -4
-          Log "@info Proceed. No server error"
-          When resultValidation is not 0
-               credentialOtp = RRF "otp.ftlh" 
-               Log "@info credentialOtp" 
-               otpResult | exception = Call io.jans.passwurd.UserCheck#validateOTP credentialOtp
-               When otpResult is true
-                    resultNotify | exception = Call io.jans.passwurd.UserCheck#notifyProfile credentialU.username resultValidation
-                    Finish credentialU.username
-               Finish false
-          Finish credentialU.username
-     Finish false
-Finish false
+     Inputs credentialMap otpPassed userExists otpResult
