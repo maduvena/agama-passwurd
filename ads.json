@@ -17,5 +17,21 @@
             "io.jans.test": {}
         },
         "name": "demo-otp"
+    },
+    "Passwurd": {
+        "projectName": "Passwurd",
+        "description": "sdfsdfs",
+        "type": "community",
+        "author": "maduvena",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/maduvena/agama-passwurd",
+        "githubUri": "https://github.com/maduvena/agama-passwurd",
+        "license": "apache-2.0",
+        "lastUpdated": "1698921664665",
+        "tags": [
+            "openid-connect"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
