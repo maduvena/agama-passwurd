@@ -14,7 +14,10 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.jans.test": {}
+            "io.jans.test": {
+                "api_fqdn": "www.mywebsite.com",
+                "client_id": "client_secret"
+            }
         },
         "name": "demo-otp"
     },
