@@ -13,7 +13,9 @@
             "openid-connect"
         ],
         "noDirectLaunch": [],
-        "configs": {},
+        "configs": {
+            "io.jans.test": {}
+        },
         "name": "demo-otp"
     }
 }
