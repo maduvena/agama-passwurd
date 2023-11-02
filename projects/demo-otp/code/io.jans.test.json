@@ -926,7 +926,13 @@
 					"comment": "check userExists",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": [
 						"username"
@@ -939,7 +945,7 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "io.jans.passwurd.UserCheck",
+					"javaClassName": "io.jans.test.UserCheck",
 					"javaMethodName": "userExists",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
@@ -955,7 +961,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 630,
@@ -1006,7 +1012,9 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "",
+					"arguments": [
+						""
+					],
 					"logMessage": "",
 					"templatePath": "username.ftlh",
 					"maxIteration": "",
@@ -1027,7 +1035,7 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ph:globe-simple",
-					"asssignedVariableName": "username"
+					"asssignedVariableName": "credentialU"
 				},
 				"skake": false
 			},
@@ -1184,7 +1192,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -1542,8 +1550,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -297,
+		"y": 36,
 		"zoom": 1
 	}
 }
