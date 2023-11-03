@@ -16,8 +16,8 @@ Log "@info userExists : " resultUserExists
 // User does not exist
 When resultUserExists is false
      // User not enrolled
-     it_jroby = { success: false, error: "User not enrolled" }
-     Finish it_jroby
+     it_xdnju = { success: false, error: "User not enrolled" }
+     Finish it_xdnju
 // Prompt for OTP
 Log "@info Assume user recieves an OTP"
 // OTP form
@@ -31,10 +31,10 @@ When otpResult is true
      // Successful flow
      Log "@info Success"
      // Flow complete
-     it_aiykv = { success: true, data: { userId: username } }
-     Finish it_aiykv
+     it_dcqas = { success: true, data: { userId: username } }
+     Finish it_dcqas
 // OTP validation failed
 Log "@error OTP validation failed"
 // Incorrect OTP
-it_cxlbj = { success: false, error: "OTP wrong" }
-Finish it_cxlbj
+it_iveke = { success: false, error: "OTP wrong" }
+Finish it_iveke
