@@ -16,7 +16,8 @@
         "configs": {
             "": {},
             "maduvena.resilient.io.jans.test": {},
-            "maduvena.burrowing.io.jans.test": {}
+            "maduvena.burrowing.io.jans.test": {},
+            "io.jans.test": {}
         },
         "name": "demo-otp"
     },
