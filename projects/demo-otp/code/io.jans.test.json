@@ -1079,7 +1079,7 @@
 					"parentId": "Agama-start-Flow-7552eae0-e8e4-4c61-8cfb-f32c45c5bbc3",
 					"name": "",
 					"basepath": "",
-					"comment": "initialize Credential Map",
+					"comment": "initialize Flow",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -1105,7 +1105,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "initialize Credential Map",
+					"displayName": "initialize Flow",
 					"nodeColor": "",
 					"exceptionVariableField": "exception",
 					"hasExtraData": false,
