@@ -47,14 +47,14 @@ public class UserCheck {
 	}
 
 	public static Map<String, String> initCredentialMap(HashMap<String, String> credentialMap) {
-		logger.info("Passwurd. initCredentialMap ");
+		logger.info("Demo-otp. initCredentialMap ");
 		credentialMap = new HashMap<String, String>();
 		credentialMap.put("username", "");
 		
 	}
 
 	public static boolean initializeFlow(Map<String, String> config) {
-		logger.info("Passwurd. Initialization. ");
+		logger.info("Demo-otp. Initialization. ");
 		configAttributes = config;
 		if (StringHelper.isEmpty(configAttributes.get("AS_ENDPOINT"))) {
 			logger.info("Passwurd. Initialization. Property AS_ENDPOINT is mandatory");
@@ -85,9 +85,9 @@ public class UserCheck {
 
 	public static boolean userExists(String uid) {
 
-		logger.info("Passwurd. Checking userExists username: " + uid);
+		logger.info("Demo-otp. Checking userExists username: " + uid);
 		if (uid == null || uid.isBlank()) {
-			logger.info("Passwurd. Checking userExists false ");
+			logger.info("Demo-otp. Checking userExists false ");
 			return false;
 		} else {    
 			User resultUser = userService.getUserByAttribute("uid", uid);
@@ -102,10 +102,10 @@ public class UserCheck {
 	
 
 	public static boolean validateOTP(HashMap<String, String> credential) {
-		logger.info("Passwurd. validateOTP credential: " +credential.toString());
+		logger.info("Demo-otp. validateOTP credential: " +credential.toString());
 		
 		String otp = credential.get("first") + credential.get("second") + credential.get("third") + credential.get("fourth");
-		logger.info("Passwurd. validateOTP: " + otp+ ":"+ "1234".equals(otp));
+		logger.info("Demo-otp. validateOTP: " + otp+ ":"+ "1234".equals(otp));
 		if ("1234".equals(otp))
 
 			return true;
