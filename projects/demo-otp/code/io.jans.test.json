@@ -70,7 +70,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 2730,
 				"y": 28.68049208922713
@@ -1090,7 +1090,9 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "credentialMap",
+					"arguments": [
+						"credentialMap"
+					],
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -1100,7 +1102,7 @@
 					"valueField": "",
 					"returnVariable": "",
 					"javaClassName": "io.jans.test.UserCheck",
-					"javaMethodName": "initializeSomething",
+					"javaMethodName": "initializeFlow",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
 					"logLevel": "",
@@ -1115,7 +1117,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230,
@@ -1550,8 +1552,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1173.1173982467217,
-		"y": 140.587265734042,
-		"zoom": 0.7071067811865477
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
