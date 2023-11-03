@@ -5,7 +5,7 @@ Flow io.jans.test
      Configs config
      Inputs credentialMap otpPassed userExists otpResult
 // initialize Credential Map
-initializeCredentialMap | exception = Call io.jans.test.UserCheck#initializeSomething credentialMap
+initializeCredentialMap | exception = Call io.jans.test.UserCheck#initializeFlow credentialMap
 // Enter username
 credentialU = RRF "username.ftlh" 
 // check userExists
@@ -17,8 +17,8 @@ Log "@info userExists : " resultUserExists
 // User does not exist
 When resultUserExists is false
      // User not enrolled
-     it_lveqz = { success: false, error: "User not enrolled" }
-     Finish it_lveqz
+     it_gwjur = { success: false, error: "User not enrolled" }
+     Finish it_gwjur
 // Prompt for OTP
 Log "@info Assume user recieves an OTP"
 // OTP form
@@ -32,10 +32,10 @@ When otpResult is true
      // Successful flow
      Log "@info Success"
      // Flow complete
-     it_hcbcf = { success: true, data: { userId: username } }
-     Finish it_hcbcf
+     it_ovqfb = { success: true, data: { userId: username } }
+     Finish it_ovqfb
 // OTP validation failed
 Log "@error OTP validation failed"
 // Incorrect OTP
-it_eateh = { success: false, error: "OTP wrong" }
-Finish it_eateh
+it_bclok = { success: false, error: "OTP wrong" }
+Finish it_bclok
