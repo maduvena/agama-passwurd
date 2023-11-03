@@ -808,7 +808,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1030,
@@ -1185,7 +1185,7 @@
 					"flowname": "io.jans.test",
 					"flowName": "io.jans.test",
 					"timeout": "100",
-					"inputs": "credentialMap otpPassed userExists otpResult",
+					"inputs": "",
 					"configs": "config"
 				},
 				"skake": false
@@ -1194,7 +1194,7 @@
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
@@ -1552,8 +1552,8 @@
 		}
 	],
 	"viewport": {
-		"x": -812,
-		"y": 20,
-		"zoom": 1
+		"x": 14.772609740506596,
+		"y": 143.27817459305197,
+		"zoom": 0.5000000000000002
 	}
 }
