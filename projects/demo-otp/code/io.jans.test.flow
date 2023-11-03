@@ -3,7 +3,6 @@ Flow io.jans.test
      Basepath ""
      Timeout 100 seconds
      Configs config
-     Inputs credentialMap otpPassed userExists otpResult
 // initialize Credential Map
 initializeCredentialMap | exception = Call io.jans.test.UserCheck#initializeFlow credentialMap
 // Enter username
@@ -17,8 +16,8 @@ Log "@info userExists : " resultUserExists
 // User does not exist
 When resultUserExists is false
      // User not enrolled
-     it_lfofd = { success: false, error: "User not enrolled" }
-     Finish it_lfofd
+     it_jroby = { success: false, error: "User not enrolled" }
+     Finish it_jroby
 // Prompt for OTP
 Log "@info Assume user recieves an OTP"
 // OTP form
@@ -32,10 +31,10 @@ When otpResult is true
      // Successful flow
      Log "@info Success"
      // Flow complete
-     it_ldqpe = { success: true, data: { userId: username } }
-     Finish it_ldqpe
+     it_aiykv = { success: true, data: { userId: username } }
+     Finish it_aiykv
 // OTP validation failed
 Log "@error OTP validation failed"
 // Incorrect OTP
-it_kaxrd = { success: false, error: "OTP wrong" }
-Finish it_kaxrd
+it_cxlbj = { success: false, error: "OTP wrong" }
+Finish it_cxlbj
