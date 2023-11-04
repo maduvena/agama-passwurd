@@ -4,7 +4,7 @@
         "description": "demo script",
         "type": "community",
         "author": "maduvena",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "authorWebsite": "https://github.com/maduvena/agama-passwurd",
         "githubUri": "https://github.com/maduvena/agama-passwurd",
         "license": "apache-2.0",
@@ -17,7 +17,7 @@
             "": {},
             "maduvena.resilient.io.jans.test": {},
             "maduvena.burrowing.io.jans.test": {},
-            "io.jans.test": {}
+            "maduvena.groovy.io.jans.test": {}
         },
         "name": "demo-otp"
     },
