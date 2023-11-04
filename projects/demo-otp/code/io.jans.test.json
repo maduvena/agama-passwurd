@@ -934,9 +934,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": [
-						"username"
-					],
+					"arguments": "credentialU.username",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -961,7 +959,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 630,
@@ -1115,7 +1113,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230,
@@ -1550,8 +1548,8 @@
 		}
 	],
 	"viewport": {
-		"x": 131.07188694846445,
-		"y": 157.95775669501964,
-		"zoom": 0.7071067811865475
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
